@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="utf-8">
+        <title>Paweł Lewandowski PORTFOLIO</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.vegas.css">
+    </head>
+    <body>
+    <div class="container-fluid">
+        <div class="row">
+        	<div class="text-center">
+                <div id="content">
+					<div id="logo" class="col-lg-4 col-md-6 col-sm-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-4">
+						<div id="sign"><img class="img-responsive center-block" src="img/logo.png" /></div>
+						<div id="pl"><span>PAWEŁ </span>LEWANDOWSKI</div>
+						<div id="falka"><img class="img-responsive center-block" src="img/falka.png" /></div>
+						<div id="portfolio">PORTFOLIO</div>
+						<div id="cs">coming soon</div>
+						<a class="kontakt" href="mailto:test@test.pl"><span>KONTAKT</span></a>
+						<div id="sd">SEND MESSAGE</div>
+						<!--<a class="fb" href="https://test.pl"><span>fb</span></a>-->
+						
+                    </div> 
+                </div>
+             </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.vegas.js"></script>
+    <script>
+    $.vegas('slideshow', {
+        delay:7500,
+        backgrounds:[
+            { src:'img/1.jpg', fade:2000 },
+            { src:'img/2.jpg', fade:2000 },
+            { src:'img/3.jpg', fade:2000 },
+            { src:'img/4.jpg', fade:2000 }
+        ]
+    })('overlay', {
+        src:'img/overlays/05.png'
+    });
+    </script>
+    </body>
+</html>

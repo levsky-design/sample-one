@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'montserratblack';
+    src: url('../fonts/mont/montserrat-black-webfont.eot');
+    src: url('../fonts/mont/montserrat-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mont/montserrat-black-webfont.woff2') format('woff2'),
+         url('../fonts/mont/montserrat-black-webfont.woff') format('woff'),
+         url('../fonts/mont/montserrat-black-webfont.ttf') format('truetype'),
+         url('../fonts/mont/montserrat-black-webfont.svg#montserratblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/mont/montserrat-bold-webfont.eot');
+    src: url('../fonts/mont/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mont/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/mont/montserrat-bold-webfont.woff') format('woff'),
+         url('../fonts/mont/montserrat-bold-webfont.ttf') format('truetype'),
+         url('../fonts/mont/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratextra_bold';
+    src: url('../fonts/mont/montserrat-extrabold-webfont.eot');
+    src: url('../fonts/mont/montserrat-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mont/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/mont/montserrat-extrabold-webfont.woff') format('woff'),
+         url('../fonts/mont/montserrat-extrabold-webfont.ttf') format('truetype'),
+         url('../fonts/mont/montserrat-extrabold-webfont.svg#montserratextra_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrathairline';
+    src: url('../fonts/mont/montserrat-hairline-webfont.eot');
+    src: url('../fonts/mont/montserrat-hairline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mont/montserrat-hairline-webfont.woff2') format('woff2'),
+         url('../fonts/mont/montserrat-hairline-webfont.woff') format('woff'),
+         url('../fonts/mont/montserrat-hairline-webfont.ttf') format('truetype'),
+         url('../fonts/mont/montserrat-hairline-webfont.svg#montserrathairline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/mont/montserrat-light-webfont.eot');
+    src: url('../fonts/mont/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mont/montserrat-light-webfont.woff2') format('woff2'),
+         url('../fonts/mont/montserrat-light-webfont.woff') format('woff'),
+         url('../fonts/mont/montserrat-light-webfont.ttf') format('truetype'),
+         url('../fonts/mont/montserrat-light-webfont.svg#montserratlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/mont/montserrat-regular-webfont.eot');
+    src: url('../fonts/mont/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mont/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/mont/montserrat-regular-webfont.woff') format('woff'),
+         url('../fonts/mont/montserrat-regular-webfont.ttf') format('truetype'),
+         url('../fonts/mont/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratsemi_bold';
+    src: url('../fonts/mont/montserrat-semibold-webfont.eot');
+    src: url('../fonts/mont/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mont/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/mont/montserrat-semibold-webfont.woff') format('woff'),
+         url('../fonts/mont/montserrat-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/mont/montserrat-semibold-webfont.svg#montserratsemi_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratultra_light';
+    src: url('../fonts/mont/montserrat-ultralight-webfont.eot');
+    src: url('../fonts/mont/montserrat-ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mont/montserrat-ultralight-webfont.woff2') format('woff2'),
+         url('../fonts/mont/montserrat-ultralight-webfont.woff') format('woff'),
+         url('../fonts/mont/montserrat-ultralight-webfont.ttf') format('truetype'),
+         url('../fonts/mont/montserrat-ultralight-webfont.svg#montserratultra_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#logo {
+    margin-top: 3%;
+}
+
+#sign {
+    margin: 15% auto auto;
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+#pl {
+    font: 18pt 'montserratsemi_bold', Arial, sans-serif;
+    color: #ffffff;
+    letter-spacing: 7px;
+    margin: 25px auto auto;
+}
+
+#pl span {
+    font: 18pt 'montserratsemi_bold', Arial, sans-serif;
+    color: #ffffff;
+    letter-spacing: 7px;
+    margin: 25px auto auto;
+}
+
+#falka {
+    margin: 20px auto auto;
+}
+
+#portfolio {
+    font: 12pt 'montserratlight', Arial, sans-serif;
+    color: #ffffff;
+    letter-spacing: 6px;
+    margin: 20px auto auto;
+}
+
+#cs {
+    font: 9pt 'montserratlight', Arial, sans-serif;
+    color: #ffffff;
+    margin: 0 auto auto;
+    letter-spacing: 2px;
+}
+
+.kontakt {
+    margin: 15% auto auto;
+}
+
+a.kontakt {
+    background: url(../img/button.png) no-repeat;
+    display:block;
+    height:86px;
+    overflow:hidden;
+    width:86px;
+}
+
+a.kontakt:hover {
+    background-position: 0px -86px;
+}
+
+a.kontakt span {
+    display:block;
+    text-indent: -9999px;
+}
+
+#sd {
+    font: 9pt 'montserratlight', Arial, sans-serif;
+    color: #ffffff;
+    margin: 7px auto auto;
+    letter-spacing: 2px;
+}
+
+.fb {
+    margin: 5% auto auto;
+}
+
+a.fb {
+    background: url(../img/fb2.png) no-repeat;
+    display:block;
+    height:30px;
+    overflow:hidden;
+    width:30px;
+}
+
+a.fb:hover {
+    background-position: 0px -30px;
+}
+
+a.fb span {
+    display:block;
+    text-indent: -9999px;
+}
+
+#copyright {
+    font: 8pt 'montserratlight', Arial, sans-serif;
+    color: #c4c4c4;
+    letter-spacing: 2px;
+}
+
+
+
+
+
